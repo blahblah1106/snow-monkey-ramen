@@ -8,7 +8,7 @@ Welcome to the Snow Monkey Ramen website repository. This project showcases the 
 - [Setup](#setup)
 
 ## Features
-- **Navigation:** A mobile-friendly navigation bar with a toggle button.
+- **Navigation:** A navigation bar with a toggle button.
 - **Gallery:** An image gallery showcasing the special dishes offered by Snow Monkey Ramen.
 - **Reservations:** A call-to-action button for reserving tables.
 
