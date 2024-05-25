@@ -14,9 +14,7 @@
     --bodyFontSize: 1rem;
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
-    background-image: url(images/Background.avif);
-    background-repeat: repeat;
-    background-size: 100vw 100vh;
+   
 
 a {
   text-decoration: none;
@@ -35,6 +33,9 @@ body {
     font-display: #000;
     margin: 0;
     padding: 0;
+    background-image: url('../images/Background.avif'); 
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 *, *:before, *:after {
@@ -685,10 +686,10 @@ body {
       color: black;
       display: block;
       position: relative;
-      transition: color 0.3s;
+      transition: 0.3s ease-in-out;
     }
     #cs-navigation .cs-li-link:hover {
-      color: var(--primary);
+      scale: 1.1;
     }
     #cs-navigation .cs-li-link.cs-active {
       color: black; 
@@ -710,7 +711,7 @@ body {
       display: inline-block;
       position: relative;
       z-index: 1;
-      transition: color 0.3s;
+      transition: 0.3s ease-in-out;;
     }
     #cs-navigation .cs-button-solid:before {
       content: "";
@@ -722,7 +723,7 @@ body {
       top: 0;
       left: 0;
       z-index: -1;
-      transition: width 0.3s;
+      transition: width 0.3s ease-in-out;
     }
     #cs-navigation .cs-button-solid:hover {
       color: #1a1a1a;
