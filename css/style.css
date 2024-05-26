@@ -1884,4 +1884,64 @@ body {
 #gallery-1152 .cs-image:hover img {
   transform: scale(1.1);
 }
+#cs-footer-269 {
+  position: relative;
+  background-color: #f8f8f8; /* Adjust background color as needed */
+  padding: 20px;
+}
 
+.cs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cs-logo-group,
+.cs-nav,
+.cs-contact {
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.cs-figcaption {
+  position: absolute;
+  bottom: 10px; /* Adjust distance from bottom as needed */
+  width: 100%;
+ left:40vw;
+  font-size: var(--bodyFontSize);
+  color: #666; /* Adjust text color as needed */
+}
+
+.cs-nav,
+.cs-contact {
+  list-style: none;
+  padding: 0;
+}
+
+.cs-nav-li,
+.cs-contact-li {
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.cs-header {
+  font-weight: bold;
+}
+
+.cs-contact-link,
+.cs-nav-link {
+  color: #333; /* Adjust link color as needed */
+  text-decoration: none;
+}
+
+.cs-social-group {
+  display: flex;
+  gap: 10px; /* Adjust gap between social icons */
+}
+
+.cs-social-link {
+  display: inline-block;
+}
+
+.cs-social-img {
+  display: block;
+}
